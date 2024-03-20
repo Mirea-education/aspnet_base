@@ -1,0 +1,38 @@
+﻿@model WebMVCVeiwSite.DbModels.User
+
+<h2>Login</h2>
+
+<form asp-action="Login">
+    <div class="form-group">
+        <label asp-for="email"></label>
+        <input asp-for="email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="password"></label>
+        <input asp-for="password" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Login</button>
+</form>
+
+@*@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success" role="alert">
+        @TempData["Success"]
+    </div>
+}*@
+@*
+@if (!ViewData.ModelState.IsValid)
+{
+    <div>
+        <p>Найдены следующие ошибки:</p>
+        <ul>
+            @foreach (var state in ViewData.ModelState.Values)
+            {
+                foreach (var error in state.Errors)
+                {
+                    <li>@error.ErrorMessage</li>
+                }
+            }
+        </ul>
+    </div>
+}*@
