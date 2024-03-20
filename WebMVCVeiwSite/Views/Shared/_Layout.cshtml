@@ -20,19 +20,20 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Домашняя страница</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">О компании</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Войти</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Создать</a>
-                        </li>
+
                     </ul>
-                </div>
+
+                    @*Добавим материал*@
+                    <div style="float:right;">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Войти в профиль</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">Создать аккаунт</a>
+                    </div>
+            </div>
             </div>
         </nav>
     </header>

@@ -32,7 +32,7 @@ namespace WebMVCVeiwSite.Controllers
                 if (user != null)
                 {
                     // Установка сообщения об успехе
-                    //TempData["Success"] = "Вы успешно авторизовались!";
+    
                     return RedirectToAction("Profile"); // или на другую страницу
                 }
                 ModelState.AddModelError("", "Неверные логин или пароль");
