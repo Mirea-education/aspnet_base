@@ -1,0 +1,19 @@
+﻿@model TestDevMagistr.DbModelsOdb.User
+
+<h1>
+    Форма авторизации
+</h1>
+
+<form asp-action="Login">
+    <div>
+        <label>Введите емейл:</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+
+    <div>
+        <label>Введите пароль:</label>
+        <input asp-for="Password" class="form-control"/>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-primary"> Войти </button>
+</form>
