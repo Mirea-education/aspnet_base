@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="785" viewBox="0 0 1000 785" role="img" aria-label="Отбор оплаченных продаж и накопление суммы">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0 L9 4 L0 8" fill="none" stroke="#53708b" stroke-width="1.4"/></marker><marker id="triangle" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M1 1 L12 6 L1 11 Z" fill="white" stroke="#53708b" stroke-width="1.3"/></marker></defs>
+<rect width="1000" height="785" fill="white"/>
+<rect width="1000" height="8" fill="#245d9a"/>
+<text x="500.0" y="43.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="25" font-weight="700" fill="#14283f">Отбор оплаченных продаж и накопление суммы</text>
+<circle cx="330.0" cy="92.0" r="12.0" fill="#14283f"/>
+<rect x="200" y="135" width="260" height="60" rx="18" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="330.0" y="171.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700" fill="#14283f">sum = 0</text>
+<polygon points="330.0,245 430,287.5 330.0,330 230,287.5" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="330.0" y="293.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" fill="#14283f">Есть продажа?</text>
+<polygon points="330.0,385 430,427.5 330.0,470 230,427.5" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="330.0" y="433.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" fill="#14283f">Оплачена?</text>
+<rect x="650" y="390" width="270" height="75" rx="18" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="785.0" y="433.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700" fill="#14283f">sum += quantity × price</text>
+<rect x="50" y="590" width="310" height="65" rx="18" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="205.0" y="628.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700" fill="#14283f">Вернуть сумму</text>
+<circle cx="205.0" cy="722.0" r="12.0" fill="white" stroke="#14283f" stroke-width="2"/>
+<circle cx="205.0" cy="722.0" r="7.0" fill="#14283f"/>
+<path d="M330.0,104 L330.0,135" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M330.0,195 L330.0,245" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M330.0,330 L330.0,385" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="330.0" y="348.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">да</text>
+<path d="M430,427 L650,427" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="540.0" y="418.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">да</text>
+<path d="M785,390 L785,287 L430,287" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="607.5" y="329.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">следующий элемент</text>
+<path d="M230,427 L165,427 L165,287 L230,287" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="230.0" y="348.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">нет</text>
+<path d="M230,287 L80,287 L80,590" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="155.0" y="429.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">нет</text>
+<path d="M205.0,655 L205.0,710" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="24" y="767" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" fill="#63798e">Java • учебный сервис заказов • UML</text></svg>

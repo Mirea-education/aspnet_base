@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="795" viewBox="0 0 1000 795" role="img" aria-label="Обработка ключа, остатка и сохранения в одной границе">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0 L9 4 L0 8" fill="none" stroke="#53708b" stroke-width="1.4"/></marker><marker id="triangle" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M1 1 L12 6 L1 11 Z" fill="white" stroke="#53708b" stroke-width="1.3"/></marker></defs>
+<rect width="1000" height="795" fill="white"/>
+<rect width="1000" height="8" fill="#245d9a"/>
+<text x="500.0" y="43.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="25" font-weight="700" fill="#14283f">Обработка ключа, остатка и сохранения в одной границе</text>
+<circle cx="250.0" cy="94.0" r="12.0" fill="#14283f"/>
+<polygon points="250.0,150 350,192.5 250.0,235 150,192.5" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="250.0" y="198.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" fill="#14283f">Ключ найден?</text>
+<polygon points="760.0,150 860,192.5 760.0,235 660,192.5" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="760.0" y="198.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" fill="#14283f">Команда та же?</text>
+<rect x="580" y="310" width="210" height="68" rx="18" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="685.0" y="339.46" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700" fill="#14283f">Вернуть прежний</text>
+<text x="685.0" y="360.71" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700" fill="#14283f">заказ</text>
+<rect x="795" y="310" width="190" height="68" rx="18" fill="#fff0ed" stroke="#53708b" stroke-width="1.8"/>
+<text x="890.0" y="350.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700" fill="#14283f">Конфликт ключа</text>
+<polygon points="250.0,335 350,377.5 250.0,420 150,377.5" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="250.0" y="383.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" fill="#14283f">Хватает товара?</text>
+<rect x="70" y="525" width="310" height="75" rx="18" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="225.0" y="568.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700" fill="#14283f">Резерв и сохранение заказа</text>
+<rect x="405" y="525" width="235" height="75" rx="18" fill="#fff0ed" stroke="#53708b" stroke-width="1.8"/>
+<text x="522.5" y="568.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="700" fill="#14283f">Отказ по остатку</text>
+<circle cx="495.0" cy="732.0" r="12.0" fill="white" stroke="#14283f" stroke-width="2"/>
+<circle cx="495.0" cy="732.0" r="7.0" fill="#14283f"/>
+<path d="M250.0,106 L250.0,150" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M350,193 L660,193" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="505.0" y="184.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">да</text>
+<path d="M710,235 L685,310" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="697.5" y="263.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">да</text>
+<path d="M810,235 L890,310" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="850.0" y="263.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">нет</text>
+<path d="M250.0,235 L250.0,335" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="250.0" y="276.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">нет</text>
+<path d="M200,420 L225,525" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="212.5" y="463.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">да</text>
+<path d="M350,378 L523,378 L523,525" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="436.5" y="442.5" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">нет</text>
+<path d="M225,600 L225,670 L495,670 L495,720" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M523,600 L523,670 L495,670 L495,720" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M685,378 L685,670 L495,670 L495,720" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<path d="M890,378 L890,670 L495,670 L495,720" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="24" y="777" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" fill="#63798e">Java • учебный сервис заказов • UML</text></svg>

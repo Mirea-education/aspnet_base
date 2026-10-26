@@ -1,0 +1,21 @@
+@startuml
+class ApiServer
+class OrderService {
+ - store : OrderStore
+ - clock : Clock
+ + place(command) : Receipt
+ + find(id) : Order
+}
+abstract class Clock
+interface OrderStore {
+ place(command, time) : Receipt
+ find(id) : Optional<Order>
+}
+class InMemoryOrderStore
+class JdbcOrderStore
+ApiServer ..> OrderService
+OrderService ..> Clock
+OrderService ..> OrderStore
+InMemoryOrderStore ..|> OrderStore
+JdbcOrderStore ..|> OrderStore
+@enduml

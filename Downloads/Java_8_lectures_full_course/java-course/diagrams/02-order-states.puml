@@ -1,0 +1,7 @@
+@startuml
+[*] --> NEW
+NEW --> PAID : pay() [status == NEW]
+NEW --> CANCELLED : cancel() [status == NEW]
+note bottom of PAID : Повторный pay отклоняется
+note bottom of CANCELLED : pay и cancel отклоняются
+@enduml

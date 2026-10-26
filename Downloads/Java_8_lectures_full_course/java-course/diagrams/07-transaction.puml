@@ -1,0 +1,12 @@
+@startuml
+participant "Приложение" as a
+participant "Connection" as c
+participant "PostgreSQL" as d
+a -> c : setAutoCommit(false)
+c -> d : UPDATE остатка
+d --> c : число изменённых строк
+c -> d : INSERT заказа
+d --> c : результат либо ошибка
+a -> c : commit при успехе / rollback при ошибке
+c -> d : COMMIT / ROLLBACK
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+participant "main" as m
+participant "price future" as p
+participant "delivery future" as d
+participant "total future" as t
+m -> p : запустить расчёт цены
+m -> d : запустить расчёт доставки
+p --> t : 1000
+d --> t : 200
+t --> m : 1200 после готовности обоих
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+participant "Клиент" as c
+participant "ApiServer" as h
+participant "OrderService" as s
+participant "OrderStore" as r
+c -> h : POST /orders
+h -> s : place(Command)
+s -> r : place(command, time)
+r --> s : Receipt
+s --> h : Receipt
+h --> c : 201 и Location либо 200 при повторе
+@enduml

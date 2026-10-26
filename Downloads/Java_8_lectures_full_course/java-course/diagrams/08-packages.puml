@@ -1,0 +1,15 @@
+@startuml
+package app
+package http
+package application
+package infrastructure
+package domain
+app ..> http
+app ..> application
+app ..> infrastructure
+http ..> application
+http ..> domain
+application ..> domain
+infrastructure ..> application
+infrastructure ..> domain
+@enduml

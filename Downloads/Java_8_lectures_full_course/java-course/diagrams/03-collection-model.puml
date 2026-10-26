@@ -1,0 +1,18 @@
+@startuml
+class Main {
+ find(catalog, sku) : Optional<Product>
+ first(items) : T
+ addQuantities(target) : void
+}
+class Product <<record>> {
+ sku : String
+ name : String
+}
+class LinkedHashMap {
+ key : String
+ value : Product
+ putIfAbsent(key, value)
+}
+Main ..> Product : результат поиска
+Main ..> LinkedHashMap : каталог
+@enduml

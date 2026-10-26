@@ -1,0 +1,14 @@
+@startuml
+node "Ноутбук преподавателя" {
+ artifact "curl / PowerShell" as client
+ node JVM {
+  artifact "orders.jar" as app
+ }
+}
+node "Сервер PostgreSQL" as db {
+ database "Учебная база" as data
+}
+client --> app : HTTP 127.0.0.1
+app --> data : JDBC / TCP
+note bottom of db : Не требуется для режима memory
+@enduml

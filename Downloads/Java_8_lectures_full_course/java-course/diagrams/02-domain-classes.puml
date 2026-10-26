@@ -1,0 +1,22 @@
+@startuml
+class Order {
+ - lines : List<Line>
+ - status : Status
+ + payable(policy) : long
+ + pay() : void
+ + cancel() : void
+}
+class Line <<record>> {
+ sku : String
+ unitPrice : long
+ quantity : int
+ total() : long
+}
+interface DiscountPolicy {
+ + discount(gross) : long
+}
+class ThresholdDiscount
+Order "1" -- "1..*" Line : lines
+Order ..> DiscountPolicy : использует
+ThresholdDiscount ..|> DiscountPolicy
+@enduml

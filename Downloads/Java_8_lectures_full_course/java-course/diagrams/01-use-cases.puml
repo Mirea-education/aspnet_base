@@ -1,0 +1,16 @@
+@startuml
+left to right direction
+actor Покупатель as buyer
+actor Оператор as operator
+rectangle "Учебный сервис заказов" {
+ usecase "Рассчитать стоимость" as calc
+ usecase "Оформить заказ" as place
+ usecase "Просмотреть заказ" as view
+ usecase "Отменить заказ" as cancel
+}
+buyer -- calc
+buyer -- place
+buyer -- view
+operator -- cancel
+operator -- view
+@enduml

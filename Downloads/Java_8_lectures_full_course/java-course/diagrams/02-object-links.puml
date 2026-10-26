@@ -1,0 +1,18 @@
+@startuml
+object "main locals" as main <<контекст вызова>> {
+ order = original
+}
+object "reassign locals" as call <<контекст вызова>> {
+ order = replacement
+}
+object "original : Order" as original {
+ status = NEW
+ lines = [BOOK]
+}
+object "replacement : Order" as replacement {
+ status = NEW
+ lines = [OTHER]
+}
+main --> original : order
+call --> replacement : order
+@enduml

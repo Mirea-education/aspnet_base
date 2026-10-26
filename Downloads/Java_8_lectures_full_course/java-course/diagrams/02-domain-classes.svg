@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="670" viewBox="0 0 1120 670" role="img" aria-label="Заказ защищает состояние, политика задаёт скидку">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0 L9 4 L0 8" fill="none" stroke="#53708b" stroke-width="1.4"/></marker><marker id="triangle" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M1 1 L12 6 L1 11 Z" fill="white" stroke="#53708b" stroke-width="1.3"/></marker></defs>
+<rect width="1120" height="670" fill="white"/>
+<rect width="1120" height="8" fill="#245d9a"/>
+<text x="560.0" y="43.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="25" font-weight="700" fill="#14283f">Заказ защищает состояние, политика задаёт скидку</text>
+<rect x="50" y="140" width="330" height="203" rx="0" fill="white" stroke="#53708b" stroke-width="1.8"/>
+<rect x="50" y="140" width="330" height="43" rx="0" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="215.0" y="170.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#14283f">Order</text>
+<path d="M50,249 L380,249" fill="none" stroke="#53708b" stroke-width="1.8"/>
+<text x="62" y="208.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">- lines : List&lt;Line&gt;</text>
+<text x="62" y="236.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">- status : Status</text>
+<text x="62" y="274.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">+ payable(policy) : long</text>
+<text x="62" y="302.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">+ pay() : void</text>
+<text x="62" y="330.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">+ cancel() : void</text>
+<rect x="720" y="140" width="345" height="190" rx="0" fill="white" stroke="#53708b" stroke-width="1.8"/>
+<rect x="720" y="140" width="345" height="58" rx="0" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="892.5" y="161.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="400" fill="#14283f">«record»</text>
+<text x="892.5" y="185.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#14283f">Line</text>
+<path d="M720,292 L1065,292" fill="none" stroke="#53708b" stroke-width="1.8"/>
+<text x="732" y="223.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">sku : String</text>
+<text x="732" y="251.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">unitPrice : long</text>
+<text x="732" y="279.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">quantity : int</text>
+<text x="732" y="317.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">total() : long</text>
+<rect x="65" y="465" width="350" height="131" rx="0" fill="white" stroke="#53708b" stroke-width="1.8"/>
+<rect x="65" y="465" width="350" height="58" rx="0" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="240.0" y="486.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="400" fill="#14283f">«interface»</text>
+<text x="240.0" y="510.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#14283f">DiscountPolicy</text>
+<path d="M65,558 L415,558" fill="none" stroke="#53708b" stroke-width="1.8"/>
+<text x="77" y="583.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">+ discount(gross) : long</text>
+<rect x="650" y="465" width="415" height="116" rx="0" fill="white" stroke="#53708b" stroke-width="1.8"/>
+<rect x="650" y="465" width="415" height="43" rx="0" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="857.5" y="495.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#14283f">ThresholdDiscount</text>
+<path d="M650,543 L1065,543" fill="none" stroke="#53708b" stroke-width="1.8"/>
+<text x="662" y="568.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">+ discount(gross) : long</text>
+<path d="M380,220 L720,220" fill="none" stroke="#53708b" stroke-width="1.8"/>
+<text x="550.0" y="211.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">lines  1..*</text>
+<path d="M200,343 L200,465" fill="none" stroke="#53708b" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<text x="272" y="423.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">использует</text>
+<path d="M650,542 L415,542" fill="none" stroke="#53708b" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#triangle)"/>
+<text x="24" y="652" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" fill="#63798e">Java • учебный сервис заказов • UML</text></svg>

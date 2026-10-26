@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="590" viewBox="0 0 1120 590" role="img" aria-label="Независимые задачи и объединение результатов">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0 L9 4 L0 8" fill="none" stroke="#53708b" stroke-width="1.4"/></marker><marker id="triangle" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M1 1 L12 6 L1 11 Z" fill="white" stroke="#53708b" stroke-width="1.3"/></marker></defs>
+<rect width="1120" height="590" fill="white"/>
+<rect width="1120" height="8" fill="#245d9a"/>
+<text x="560.0" y="43.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="25" font-weight="700" fill="#14283f">Независимые задачи и объединение результатов</text>
+<rect x="15.0" y="75" width="170" height="52" rx="8" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="100.0" y="106.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="700" fill="#14283f">main</text>
+<path d="M100.0,127 L100.0,525" fill="none" stroke="#53708b" stroke-width="1.8" stroke-dasharray="7 5"/>
+<rect x="321.6666666666667" y="75" width="170" height="52" rx="8" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="406.6666666666667" y="106.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="700" fill="#14283f">price future</text>
+<path d="M406.6666666666667,127 L406.6666666666667,525" fill="none" stroke="#53708b" stroke-width="1.8" stroke-dasharray="7 5"/>
+<rect x="628.3333333333334" y="75" width="170" height="52" rx="8" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="713.3333333333334" y="106.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="700" fill="#14283f">delivery future</text>
+<path d="M713.3333333333334,127 L713.3333333333334,525" fill="none" stroke="#53708b" stroke-width="1.8" stroke-dasharray="7 5"/>
+<rect x="935.0" y="75" width="170" height="52" rx="8" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="1020.0" y="106.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="18" font-weight="700" fill="#14283f">total future</text>
+<path d="M1020.0,127 L1020.0,525" fill="none" stroke="#53708b" stroke-width="1.8" stroke-dasharray="7 5"/>
+<path d="M100.0,170 L406.6666666666667,170" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="253.33333333333334" y="160.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">запустить расчёт цены</text>
+<path d="M100.0,236 L713.3333333333334,236" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="406.6666666666667" y="226.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">запустить расчёт доставки</text>
+<path d="M406.6666666666667,302 L1020.0,302" fill="none" stroke="#53708b" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<text x="713.3333333333334" y="292.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">1000</text>
+<path d="M713.3333333333334,368 L1020.0,368" fill="none" stroke="#53708b" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<text x="866.6666666666667" y="358.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">200</text>
+<path d="M1020.0,434 L100.0,434" fill="none" stroke="#53708b" stroke-width="1.8" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<text x="560.0" y="424.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">1200 после готовности обоих</text>
+<text x="560.0" y="544.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="400" fill="#14283f">Стрелки показывают зависимости, а не обещание отдельных потоков на каждом шаге</text>
+<text x="24" y="572" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" fill="#63798e">Java • учебный сервис заказов • UML</text></svg>

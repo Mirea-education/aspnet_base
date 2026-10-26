@@ -1,0 +1,11 @@
+@startuml
+participant "Поток A" as a
+participant "value = 0" as c
+participant "Поток B" as b
+a -> c : прочитать
+c --> a : 0
+b -> c : прочитать
+c --> b : 0
+a -> c : записать 1
+b -> c : записать 1
+@enduml

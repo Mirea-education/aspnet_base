@@ -1,0 +1,11 @@
+@startuml
+start
+:sum = 0;
+while (Есть продажа?) is (да)
+ if (Оплачена?) then (да)
+  :sum += quantity * price;
+ endif
+endwhile (нет)
+:Вернуть сумму;
+stop
+@enduml

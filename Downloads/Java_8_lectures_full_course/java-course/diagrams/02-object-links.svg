@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="555" viewBox="0 0 1120 555" role="img" aria-label="Локальное присваивание меняет только параметр">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0 L9 4 L0 8" fill="none" stroke="#53708b" stroke-width="1.4"/></marker><marker id="triangle" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M1 1 L12 6 L1 11 Z" fill="white" stroke="#53708b" stroke-width="1.3"/></marker></defs>
+<rect width="1120" height="555" fill="white"/>
+<rect width="1120" height="8" fill="#245d9a"/>
+<text x="560.0" y="43.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="25" font-weight="700" fill="#14283f">Локальное присваивание меняет только параметр</text>
+<rect x="55" y="130" width="320" height="96" rx="0" fill="white" stroke="#53708b" stroke-width="1.8"/>
+<rect x="55" y="130" width="320" height="58" rx="0" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="215.0" y="151.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="400" fill="#14283f">«контекст вызова»</text>
+<text x="215.0" y="175.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#14283f" text-decoration="underline">main locals</text>
+<path d="M55,226 L375,226" fill="none" stroke="#53708b" stroke-width="1.8"/>
+<text x="67" y="213.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">order → original</text>
+<rect x="55" y="355" width="320" height="96" rx="0" fill="white" stroke="#53708b" stroke-width="1.8"/>
+<rect x="55" y="355" width="320" height="58" rx="0" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="215.0" y="376.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="400" fill="#14283f">«контекст вызова»</text>
+<text x="215.0" y="400.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#14283f" text-decoration="underline">reassign locals</text>
+<path d="M55,451 L375,451" fill="none" stroke="#53708b" stroke-width="1.8"/>
+<text x="67" y="438.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">order → replacement</text>
+<rect x="715" y="130" width="350" height="109" rx="0" fill="white" stroke="#53708b" stroke-width="1.8"/>
+<rect x="715" y="130" width="350" height="43" rx="0" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="890.0" y="160.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#14283f" text-decoration="underline">original : Order</text>
+<path d="M715,239 L1065,239" fill="none" stroke="#53708b" stroke-width="1.8"/>
+<text x="727" y="198.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">status = NEW</text>
+<text x="727" y="226.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">lines = [BOOK]</text>
+<rect x="715" y="355" width="350" height="109" rx="0" fill="white" stroke="#53708b" stroke-width="1.8"/>
+<rect x="715" y="355" width="350" height="43" rx="0" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="890.0" y="385.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#14283f" text-decoration="underline">replacement : Order</text>
+<path d="M715,464 L1065,464" fill="none" stroke="#53708b" stroke-width="1.8"/>
+<text x="727" y="423.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">status = NEW</text>
+<text x="727" y="451.0" text-anchor="start" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">lines = [OTHER]</text>
+<path d="M375,205 L715,205" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="545.0" y="196.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">значение ссылки</text>
+<path d="M375,430 L715,430" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="545.0" y="421.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">новое значение параметра</text>
+<text x="24" y="537" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" fill="#63798e">Java • учебный сервис заказов • UML</text></svg>

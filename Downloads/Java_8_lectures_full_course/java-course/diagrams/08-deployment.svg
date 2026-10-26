@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-label="Локальная демонстрация и необязательная база данных">
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0 L9 4 L0 8" fill="none" stroke="#53708b" stroke-width="1.4"/></marker><marker id="triangle" markerWidth="13" markerHeight="12" refX="12" refY="6" orient="auto"><path d="M1 1 L12 6 L1 11 Z" fill="white" stroke="#53708b" stroke-width="1.3"/></marker></defs>
+<rect width="1120" height="640" fill="white"/>
+<rect width="1120" height="8" fill="#245d9a"/>
+<text x="560.0" y="43.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="25" font-weight="700" fill="#14283f">Локальная демонстрация и необязательная база данных</text>
+<path d="M45,130 l18,-16 h430 v410 l-18,16 Z" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<rect x="45" y="130" width="430" height="410" rx="0" fill="white" stroke="#53708b" stroke-width="1.8"/>
+<path d="M45,130 L63,114" fill="none" stroke="#53708b" stroke-width="1.8"/>
+<path d="M475,130 L493,114" fill="none" stroke="#53708b" stroke-width="1.8"/>
+<text x="260.0" y="162.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#14283f">Ноутбук преподавателя</text>
+<rect x="90" y="205" width="335" height="72" rx="0" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="257" y="246.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="700" fill="#14283f">curl / PowerShell</text>
+<rect x="90" y="365" width="335" height="120" rx="0" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="257" y="400.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#14283f">JVM</text>
+<text x="257" y="441.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#14283f">orders.jar</text>
+<path d="M257,277 L257,365" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="340" y="326.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">HTTP 127.0.0.1</text>
+<path d="M665,290 l18,-16 h375 v250 l-18,16 Z" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<rect x="665" y="290" width="375" height="250" rx="0" fill="white" stroke="#53708b" stroke-width="1.8"/>
+<path d="M665,290 L683,274" fill="none" stroke="#53708b" stroke-width="1.8"/>
+<path d="M1040,290 L1058,274" fill="none" stroke="#53708b" stroke-width="1.8"/>
+<text x="852.5" y="322.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="19" font-weight="700" fill="#14283f">Сервер PostgreSQL</text>
+<rect x="710" y="365" width="285" height="105" rx="0" fill="#eef5fb" stroke="#53708b" stroke-width="1.8"/>
+<text x="852" y="399.6" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#14283f">course8_stock</text>
+<text x="852" y="424.6" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="400" fill="#14283f">course8_orders</text>
+<path d="M425,426 L710,426" fill="none" stroke="#53708b" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text x="565" y="402.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="400" fill="#14283f">JDBC / TCP</text>
+<text x="850" y="555.0" text-anchor="middle" font-family="DejaVu Sans,Arial,sans-serif" font-size="17" font-weight="400" fill="#14283f">Не требуется для режима memory</text>
+<text x="24" y="622" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" fill="#63798e">Java • учебный сервис заказов • UML</text></svg>

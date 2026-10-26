@@ -1,0 +1,12 @@
+@startuml
+component "HTTP adapter" as http
+component "Application core" as core
+interface OrderStore as port
+component "Memory store" as memory
+component "PostgreSQL adapter" as jdbc
+http ..> core : команда
+core ..> port
+memory -- port
+jdbc -- port
+note bottom of port : В одном запуске выбирается одно хранилище
+@enduml
